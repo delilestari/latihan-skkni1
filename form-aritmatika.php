@@ -9,12 +9,12 @@
 			<tr>
 				<td>Angka 1</td>
 				<td>:</td>
-				<td><input type="text" name="angka1"></td>
+				<td><input type="text" name="angka1" placeholder="0"></td>
 			</tr>
 			<tr>
 				<td>Angka 2</td>
 				<td>:</td>
-				<td><input type="text" name="angka2"></td>
+				<td><input type="text" name="angka2" placeholder="0"></td>
 			</tr>
 			<tr>
 				<td>Aritmatika</td>

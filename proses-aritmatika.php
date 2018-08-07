@@ -5,6 +5,7 @@
 	$angka1 = 0;
 	$angka2 = 0;
 	$hasil  = 0;
+	$terbilang = "";
 
 	if (isset($_POST['submit'])) {
 		$angka1 = @$_POST['angka1'];
@@ -13,28 +14,21 @@
 
 		if ($aritmatika == 1) {
 			$hasil = penjumlahan($angka1, $angka2);
-			$terbilang = terbilang($hasil);
-
 			echo "Hasil Penjumlahan : " . $hasil; 
 		} elseif ($aritmatika == 2) {
 			$hasil = pengurangan($angka1, $angka2);
-			$terbilang = terbilang($hasil);
-
 			echo "Hasil Pengurangan : " . $hasil;
 		} elseif ($aritmatika == 3) {
 			$hasil = perkalian($angka1, $angka2);
-			$terbilang = terbilang($hasil);
-
 			echo "Hasil Perkalian : " . $hasil;
 		} elseif ($aritmatika == 4) {
 			$hasil = pembagian($angka1, $angka2);
-			$terbilang = terbilang($hasil);
-
 			echo "Hasil Pembagian : " . $hasil;
 		} else {
+			$hasil = 0;
 			echo "Gagal...";
 		}
-
+		$terbilang = terbilang($hasil);
 		echo "<br>Terbilang : ".$terbilang;
 
 
