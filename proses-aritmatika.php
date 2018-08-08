@@ -10,6 +10,7 @@
 </head>
 <body>
 	<?php 
+		error_reporting(0);
 		include"function/aritmatika.php";
 		include"function/terbilang.php";
 

@@ -3,16 +3,17 @@
 <head>
 	<title>Soal 1</title>
 </head>
+<center>
 <body>
 	<form action="proses-aritmatika.php" method="POST">
 		<table border="0">
 			<tr>
-				<td>Angka 1</td>
+				<td>Bilangan 1</td>
 				<td>:</td>
 				<td><input type="text" name="angka1" placeholder="0"></td>
 			</tr>
 			<tr>
-				<td>Angka 2</td>
+				<td>Bilangan 2</td>
 				<td>:</td>
 				<td><input type="text" name="angka2" placeholder="0"></td>
 			</tr>
